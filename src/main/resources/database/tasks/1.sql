@@ -1,10 +1,10 @@
 ALTER TABLE Developers
   ADD Salary INT NOT NULL;
 
-INSERT INTO Developers (id, salary) values (1,'2000$');
-INSERT INTO Developers (id, salary) values (2,'3000$');
-INSERT INTO Developers (id, salary) values (3,'8000$');
-INSERT INTO Developers (id, salary) values (4,'4000$');
-INSERT INTO Developers (id, salary) values (5,'3300$');
-INSERT INTO Developers (id, salary) values (6,'2500$');
-INSERT INTO Developers (id, salary) values (7,'6000$');
+
+UPDATE developers SET salary = 2000 WHERE id = 1;
+UPDATE developers SET salary = 3000 WHERE id = 2;
+UPDATE developers SET salary = 5000 WHERE id = 3;
+UPDATE developers SET salary = 8000 WHERE id = 4;
+UPDATE developers SET salary = 6000 WHERE id = 5;
+UPDATE developers SET salary = 2500 WHERE id = 6;
